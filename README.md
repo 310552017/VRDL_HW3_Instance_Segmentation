@@ -1,11 +1,10 @@
-# VRDL_HW2_Street_View_House_Numbers_detection
-SVHN dataset contains 33,402 trianing images, 13,068 test images
-Train a not only accurate but fast digit detector!
+# VRDL_HW3_Instance_Segmentation
+Nuclear segmentation dataset contains 24 training images with 14,598 nuclear and 6 test images with 2,360 nuclear.
+Train an instance segmentation model to detect and segment all the nuclei in the image.
+No external data should be used!
 
 ## Coding Environment
-- Window 10
 - Jupyter Notebook
-- Google Colab
 
 ## Reproducing Submission
 To reproduct the testing prediction, please follow the steps below:
