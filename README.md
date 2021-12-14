@@ -15,7 +15,7 @@ To reproduct the testing prediction, please follow the steps below:
 
 ## Environment
 Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebook
-- notebook 6.4.6
+- notebook 6.1.5  
 
 ## Dataset
 - “Transfer_mat_To_csv.ipynb” which can transfer .mat file to .csv file. 
