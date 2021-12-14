@@ -18,7 +18,7 @@ requirement.txt contains all packages version of Jupyter Notebook
 - notebook 6.1.5  
 
 ## Dataset
-- “Transfer_mat_To_csv.ipynb” which can transfer .mat file to .csv file. 
+- “Transfer_mask_To_json.ipynb” which can transfer mask image file to .json file. 
 - I transfer the file on google colab and save on the google drive , then download the csv file to my computer to train the model.
 1. Download the dataset from https://drive.google.com/drive/folders/1aRWnNvirWHXXXpPPfcWlHQuzGJdXagoc.
 2. Upload file "digitStruct.mat"、"Transfer_mat_To_csv.ipynb" to google drive in the same folder.
