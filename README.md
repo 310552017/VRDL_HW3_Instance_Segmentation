@@ -14,7 +14,7 @@ To reproduct the testing prediction, please follow the steps below:
 4. [Testing](#testing)
 
 ## Environment
-Jupyter_Notebook_environment.txt contains all packages version of Jupyter Notebook
+requirement.txt contains all packages version of Jupyter Notebook
 - notebook 6.1.5  
 
 ## Dataset
