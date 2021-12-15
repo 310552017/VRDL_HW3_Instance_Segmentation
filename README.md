@@ -24,7 +24,7 @@ requirement.txt contains all packages version of Jupyter Notebook
 2. Upload unzipped file "dataset.zip"、"Transfer_mat_To_csv.ipynb" to google drive in the same folder.
 3. Run the file "Transfer_mat_To_csv.ipynb" you will get a "annotations.json" file.
 4. Download the file "annotations.json".
-5. 
+5. Download the dataset which is uploaded by me and put its path with file "VRDL_HW03.ipynb".
 
 
 ## Training
