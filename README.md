@@ -19,13 +19,12 @@ requirement.txt contains all packages version of Jupyter Notebook
 
 ## Dataset
 - “Transfer_mask_To_json.ipynb” which can transfer mask image file to .json file. 
-- I transfer the file on google colab and save on the google drive , then download the csv file to my computer to train the model.
-1. Download the dataset from https://drive.google.com/drive/folders/1aRWnNvirWHXXXpPPfcWlHQuzGJdXagoc.
-2. Upload file "digitStruct.mat"、"Transfer_mat_To_csv.ipynb" to google drive in the same folder.
-3. Run the file "Transfer_mat_To_csv.ipynb" you will get a "train_ann.csv" file.
-4. Download the file "train_ann.csv".
-5. Extract the "train.zip" and "test.zip" in the folder with "train_ann.csv".
-6. Training images will be put in "train" folder and testing images will be put in "test" folder.
+- I transfer the file on google colab and save on the google drive , then download the json file to my computer to train the model.
+1. Download the dataset from https://drive.google.com/file/d/1nEJ7NTtHcCHNQqUXaoPk55VH3Uwh4QGG/view.
+2. Upload unzipped file "dataset.zip"、"Transfer_mat_To_csv.ipynb" to google drive in the same folder.
+3. Run the file "Transfer_mat_To_csv.ipynb" you will get a "annotations.json" file.
+4. Download the file "annotations.json".
+5. 
 
 
 ## Training
