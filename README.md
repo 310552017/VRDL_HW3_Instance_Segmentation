@@ -34,22 +34,18 @@ requirement.txt contains all packages version of Jupyter Notebook
 
 The training parameters are:
 
-Model | learning rate | Training Epochs | Batch size | optimizer
------------------------- | ------------------------- | ------------------------- | ------------------------- | -------------------------
-FasterRCNN_resnet50_fpn | 0.005 | 5、10 | 4 | SGD
+Model | learning rate | Training iterations | Batch size
+------------------------ | ------------------------- | ------------------------- | -------------------------
+MaskRCNN_resnet101_fpn | 0.00025 | 100000 | 2
 
 ## Testing
-- "VRDL_HW2_train.ipynb" has the code that can use the model which is saved above to predict the testing images and save the prediction result as json files according to coco set rules.
+- "VRDL_HW03.ipynb" has the code that can use the model which is saved above to predict the testing images and save the prediction result as json files according to coco set rules.
 
 ### Pretrained models
-Pretrained model "fasterrcnn_resnet50_fpn" which is provided by torchvision.
+Pretrained model "MaskRCNN_resnet101_fpn" which is provided by detectron2.
 
 ### Link of my trained model
-- The model which training with 5 epoch：https://drive.google.com/file/d/1Nc4rTVkuetaxzcw36nKwIAK7AcY5msRR/view?usp=sharing
-- The model which training with 10 epoch：https://drive.google.com/file/d/1UrexXo2LfPu2Cl40yw-wW9iS8TALiIav/view?usp=sharing
-- "train_ann.csv"：https://drive.google.com/file/d/1pgypeO_P9SmXS_xeP46cya-iAexbk3Q2/view?usp=sharing
-- File for Evaluating the prediction time "inference.ipynb"：https://colab.research.google.com/drive/1j0IslEBNBqeXtdXvu0Irp7AIsJG_HlMA?usp=sharing
-- Note：“utils.py”、“transforms.py”、“coco_eval.py”、“model_utils.py”、“engine.py”、“coco_utils.py” and "model.pth" files are need to be uploaded to google drive.
+- The model which training with 100000 iterations：https://drive.google.com/drive/folders/1g4r5g5v9L76khoL96FINSCno_9ZsRwMj?usp=sharing
 
 ### Inference
 
