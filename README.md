@@ -45,15 +45,12 @@ MaskRCNN_resnet101_fpn | 0.00025 | 100000 | 2
 Pretrained model "MaskRCNN_resnet101_fpn" which is provided by detectron2.
 
 ### Link of my trained model
-- The model which training with 100000 iterations：https://drive.google.com/drive/folders/1g4r5g5v9L76khoL96FINSCno_9ZsRwMj?usp=sharing
+- The model which training with 100000 iterations：https://drive.google.com/file/d/14FpmiZiJ1SdBGayvGkJAg-5zSRXWL0jq/view?usp=sharing
 - The model's training json file :https://drive.google.com/file/d/1Gp5-SdGiGUjhDb22cIQgHC0VIneMSgXY/view?usp=sharing
 
 ### Inference
 
 Load the trained model parameters without retraining again.
 
-“utils.py”、“transforms.py”、“coco_eval.py”、“model_utils.py”、“engine.py”、“coco_utils.py” and ".pth" need to be download to your own device and run "VRDL_HW2_train.ipynb" you will get the results as json file.
-
-"Inference.ipynb" just has the code about calculating the running time of the model.
-
-"Inference.ipynb" and the model need to be upload to google colab to run so that it can has the same hard device performance.
+“model_final.pth” need to be download to your own device and run “inference.ipynb” you will get the results as json file.
+“model_final.pth” need to be put in the folder ./output/ that contains “inference.ipynb”.
