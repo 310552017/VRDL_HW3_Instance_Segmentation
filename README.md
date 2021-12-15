@@ -46,6 +46,7 @@ Pretrained model "MaskRCNN_resnet101_fpn" which is provided by detectron2.
 
 ### Link of my trained model
 - The model which training with 100000 iterations：https://drive.google.com/drive/folders/1g4r5g5v9L76khoL96FINSCno_9ZsRwMj?usp=sharing
+- The model's training json file :https://drive.google.com/file/d/1Gp5-SdGiGUjhDb22cIQgHC0VIneMSgXY/view?usp=sharing
 
 ### Inference
 
