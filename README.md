@@ -24,12 +24,12 @@ requirement.txt contains all packages version of Jupyter Notebook
 2. Upload unzipped file "dataset.zip"、"Transfer_mat_To_csv.ipynb" to google drive in the same folder.
 3. Run the file "Transfer_mat_To_csv.ipynb" you will get a "annotations.json" file.
 4. Download the file "annotations.json".
-5. Download the dataset which is uploaded by me and put its path with file "VRDL_HW03.ipynb".
+
 
 
 ## Training
-- Download the files "VRDL_HW2_train.ipynb"、“utils.py”、“transforms.py”、“coco_eval.py”、“model_utils.py”、“engine.py”、“coco_utils.py” and put these files in the folder with - "train_ann.csv"
-- Run the files "VRDL_HW2_train.ipynb" will start to train the model and save it.
+- Download the dataset which is uploaded by me and put it in the same file with "VRDL_HW03.ipynb" and "annotations.json".
+- Run the files "VRDL_HW03.ipynb" will start to train the model and save it as "model_final.pth".
 - Remember to replace the root of the image file with your own root.
 
 The training parameters are:
